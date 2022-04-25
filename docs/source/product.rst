@@ -37,7 +37,7 @@ The result is a 1km-resolution 700x700 radar accumulated rainfall analysis, prod
 
 .. figure:: /docs/source/figures/radar_example.png
    :alt: Radar analysis for 2021-01-27 04:30 UTC
-   :align: centre
+   :align: center
    :width: 400px
    
    RMI radar analysis of 5 min. accumulated rainfall valid at 2021-01-27 04:30 UTC
@@ -55,7 +55,7 @@ Both ALARO and AROME use a non-hydrostatic dynamical core. The main difference b
 
 .. figure:: /docs/source/figures/figures/model_example.png
    :alt: Rainfall forecast for 2021-01-27 04:30 UTC
-   :align: centre
+   :align: center
    :width: 400px
    
    ALARO (left) and AROME (right) forecast of 5 min. accumulated rainfall valid at 2021-01-27 04:30 UTC. Both forecast were started at 2021-01-27 00:00 UTC.
