@@ -35,7 +35,7 @@ The result is a 1km-resolution 700x700 radar accumulated rainfall analysis, prod
 
 .. _radar example:
 
-.. figure:: /figures/radar_example.png
+.. figure:: /rmi-pysteps/docs/source/figures/figures/radar_example.png
    :alt: Radar analysis for 2021-01-27 04:30 UTC
    :align: center
    :width: 400px
