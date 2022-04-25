@@ -38,7 +38,7 @@ The result is a 1km-resolution 700x700 radar accumulated rainfall analysis, prod
 .. figure:: /docs/source/figures/radar_example.png
    :alt: Radar analysis for 2021-01-27 04:30 UTC
    :align: center
-   :width: 400px
+   :width: 600px
    
    RMI radar analysis of 5 min. accumulated rainfall valid at 2021-01-27 04:30 UTC
 
