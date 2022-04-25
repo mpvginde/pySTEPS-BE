@@ -33,6 +33,15 @@ This product is created at the RMI by combining (if available) images from 5 rad
 and applying several post-processing algorithms (beam-blockage correction, non-meteorological echo mitigation, mean-field bias gauge merging, ...).
 The result is a 1km-resolution 700x700 radar accumulated rainfall analysis, produced every 5 minutes.
 
+.. _radar example:
+
+.. figure:: /figures/radar_example.png
+   :alt: Radar analysis for 2021-01-27 04:30 UTC
+   :align: center
+   :width: 400px
+   
+   RMI radar analysis of 5 min. accumulated rainfall valid at 2021-01-27 04:30 UTC
+
 .. _nwp:
 
 RMI MINI-EPS
@@ -41,6 +50,15 @@ RMI MINI-EPS
 The NWP component used for the pySTEPS nowcast is provided by RMI's operational NWP models ALARO and AROME.
 Both models have a 1.3 km resolution and are run 4 times a day, providing a forecast up  leadtimes of 48 hours. 
 Both ALARO and AROME use a non-hydrostatic dynamical core. The main difference between both model lies in their treatment of (deep) convection and microphysics. For the pySTEPS nowcast, the most recent and 2 previous rainfall forecasts of both the AROME and ALARO are used to create a lagged ensemble of 6 members. The NWP rainfall fields are regridded to the radar grid before they are used by pySTEPS.
+
+.. _nwp example:
+
+.. figure:: /figures/model_example.png
+   :alt: Rainfall forecast for 2021-01-27 04:30 UTC
+   :align: center
+   :width: 400px
+   
+   ALARO (left) and AROME (right) forecast of 5 min. accumulated rainfall valid at 2021-01-27 04:30 UTC. Both forecast were started at 2021-01-27 00:00 UTC.
 
 .. note::
 Termonia, P., Fischer, C., Bazile, E., Bouyssel, F., Brožková, R., Bénard, P., Bochenek, B., Degrauwe, D., Derková, M., El Khatib, R., Hamdi, R., Mašek, J., Pottier, P., Pristov, N., Seity, Y., Smolíková, P., Španiel, O., Tudor, M., Wang, Y., Wittmann, C., and Joly, A.: The ALADIN System and its canonical model configurations AROME CY41T1 and ALARO CY40T1, *Geosci. Model Dev*., 11, 257–281, https://doi.org/10.5194/gmd-11-257-2018, 2018. 
