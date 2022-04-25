@@ -23,6 +23,15 @@ Also, there exists an option to perturb the motion field as determined by the op
 
 Radar Analysis
 ---------------
+The radar analyses used by RMI-PYSTEPS are composite post-processed 5 minute accumulated rainfall products.
+This product is created at the RMI by combining (if available) images from 5 radars:
+- Helchteren (Belgium)
+- Jabbeke (Belgium)
+- Wideumont (Belgium)
+- Avenois (France)
+- Neuheilenback (Germany)
+and applying several post-processing algorithms (beam-blockage correction, non-meteorological echo mitigation, mean-field bias gauge merging, ...).
+The result is a 1km-resolution 700x700 radar accumulated rainfall analysis, produced every 5 minutes.
 
 .. _nwp:
 RMI MINI-EPS
