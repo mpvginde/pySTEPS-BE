@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
-=======================================
+Documentation for the RMI-PYSTEPS nowcast product
+==================================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+This project contains the documentation of the RMI-PYSTEPS nowcast product.
