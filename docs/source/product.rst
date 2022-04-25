@@ -53,7 +53,7 @@ Both ALARO and AROME use a non-hydrostatic dynamical core. The main difference b
 
 .. _nwp example:
 
-.. figure:: /docs/source/figures/figures/model_example.png
+.. figure:: /docs/source/figures/model_example.png
    :alt: Rainfall forecast for 2021-01-27 04:30 UTC
    :align: center
    :width: 400px
