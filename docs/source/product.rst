@@ -34,34 +34,18 @@ and applying several post-processing algorithms (beam-blockage correction, non-m
 The result is a 1km-resolution 700x700 radar accumulated rainfall analysis, produced every 5 minutes.
 
 .. _nwp:
+
 RMI MINI-EPS
 ------------
 
+The NWP component used for the pySTEPS nowcast is provided by RMI's operational NWP models ALARO and AROME.
+Both models have a 1.3 km resolution and are run 4 times a day, providing a forecast up  leadtimes of 48 hours. 
+Both ALARO and AROME use a non-hydrostatic dynamical core. The main difference between both model lies in their treatment of (deep) convection and microphysics. For the pySTEPS nowcast, the most recent and 2 previous rainfall forecasts of both the AROME and ALARO are used to create a lagged ensemble of 6 members. The NWP rainfall fields are regridded to the radar grid before they are used by pySTEPS.
+
+.. note::
+Termonia, P., Fischer, C., Bazile, E., Bouyssel, F., Brožková, R., Bénard, P., Bochenek, B., Degrauwe, D., Derková, M., El Khatib, R., Hamdi, R., Mašek, J., Pottier, P., Pristov, N., Seity, Y., Smolíková, P., Španiel, O., Tudor, M., Wang, Y., Wittmann, C., and Joly, A.: The ALADIN System and its canonical model configurations AROME CY41T1 and ALARO CY40T1, *Geosci. Model Dev*., 11, 257–281, https://doi.org/10.5194/gmd-11-257-2018, 2018. 
 
 
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+The pySTEPS Product
+--------------------
+Currently, the pySTEPS nowcast is run every 2 hours (00:05, 02:05, 04:05, ...) for 71 timesteps of 5 minutes, resulting in a forecast range of 5h and 55 min. The nowcast has a domain identical to the radar analysis domain and exists of 48 members. Forecasted rainfall fields are provided every timestep (5 min). 
