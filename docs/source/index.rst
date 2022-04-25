@@ -1,22 +1,21 @@
-Welcome to Lumache's documentation!
+RMI-PYSTEPS
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**RMI-PYSTEPS** is the probabilistic precipitation nowcast product of the *Royal Meteorological Institute of Belgium*.
+The product is created by using `pySTEPS <https://pysteps.readthedocs.io/en/stable/index.html>` to perturb, evolve and extrapolate the radar analysis forward in time and blend it with RMI's NWP ensemble.
 
-Check out the :doc:`usage` section for further information, including
+
+Check out the :doc:`product` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
-
+   This product is still in the experimental phase and is not yet operational
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   product
+   technical
+   cases
