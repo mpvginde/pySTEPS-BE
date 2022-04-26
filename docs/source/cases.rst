@@ -18,7 +18,7 @@ Heavy localized rainfall over (South-)Limburg and the Ardennes with high water a
    
    Radar images between 2021-06-28 and 2021-07-01.
 
-Data:
+Data
 ^^^^^
 An RMI-PYSTEPS 6h-nowcast is available every 2 hours between 2021-06-28 14:05 UTC and 2021-06-30 18:05 UTC.
 Only the nowcast for 2021-06-30 10:05 UTC is missing due to unavailable radar data.
