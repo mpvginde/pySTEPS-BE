@@ -1,7 +1,6 @@
 Available case
 ==============
-Here the currently available testcases are listed. 
-The RMI-PYSTEPS nowcast data is available on request by sending an email to *michiel.vanginderachter at meteo.be*.
+Here the currently available testcases are listed. The RMI-PYSTEPS nowcast data is available on request by sending an email to *michiel.vanginderachter at meteo.be*.
 
 
 28 - 30 june 2021
