@@ -6,3 +6,7 @@ build-backend = "flit_core.buildapi"
 name = "rmi-pysteps"
 authors = [{name = "Michiel Van Ginderachter", email = "michiel.vanginderachter@meteo.be"}]
 dynamic = ["version", "description"]
+dependencies = [
+    "sphinx >=4.3.0",
+    "sphinx-rtd-theme ==0.5.2",
+]
