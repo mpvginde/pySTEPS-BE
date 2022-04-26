@@ -23,7 +23,7 @@ The extent of the output domain is shown here:
 
 .. _domainexample:
 
-.. figure:: figures/qpe_domain.eps
+.. figure:: figures/qpe_domain.png
    :alt: The RMI-PYSTEPS output domain
    :align: center
    :width: 400px
