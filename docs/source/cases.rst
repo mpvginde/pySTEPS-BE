@@ -16,7 +16,7 @@ Heavy localized rainfall over (South-)Limburg and the Ardennes with high water a
    :align: center
    :width: 400px
    
-   Radar images between 2021-06-28 and 202107-01.
+   Radar images between 2021-06-28 and 2021-07-01.
 
 Data:
 ^^^^^
