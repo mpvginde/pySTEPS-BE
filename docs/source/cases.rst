@@ -9,6 +9,15 @@ Meteorological/Hydrological conditions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Heavy localized rainfall over (South-)Limburg and the Ardennes with high water and floods of the Geul and peak discharge of the Vesdre.
 
+.. _case1:
+
+.. figure:: figures/radar_analysis_202106280000.gif
+   :alt: Radar images between 2021-06-28 and 202107-01
+   :align: center
+   :width: 400px
+   
+   Radar images between 2021-06-28 and 202107-01.
+
 Data:
 ^^^^^
 An RMI-PYSTEPS 6h-nowcast is available every 2 hours between 2021-06-28 14:05 UTC and 2021-06-30 18:05 UTC.
