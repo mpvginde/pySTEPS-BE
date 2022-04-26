@@ -3,9 +3,9 @@ Technical Information
 
 The RMI-PYSTEPS products are stored per nowcast run in a netCDF file following the `CF 1.7 conventions <https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/cf-conventions.html>`_. 
 Each netCDF file contains 3 variables:
-1. lon[x,y]: a 700 x 700 matrix containing the longitude of each gridpoint [degrees East]
-2. lat[x,y]: a 700 x 700 matrix containing the latitude of each gridpoint [degrees North]
-3. precip_intesity[x,y,time,ens_number]: a 700 x 700 x 71 x 48 array containing the instantaneous precipitation rate [mm h-1]
+- lon[x,y]: a 700 x 700 matrix containing the longitude of each gridpoint [degrees East].
+- lat[x,y]: a 700 x 700 matrix containing the latitude of each gridpoint [degrees North].
+- precip_intesity[x,y,time,ens_number]: a 700 x 700 x 71 x 48 array containing the instantaneous precipitation rate [mm h-1].
 
 and 4 dimension:
 * ens_number: a vector of size 48 containing the ensemble member number
