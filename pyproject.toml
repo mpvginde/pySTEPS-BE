@@ -1,8 +1,9 @@
 [build-system]
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
+extensions = [sphinx_rtd_theme]
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "rmi-pysteps"
+authors = [{name = "Michiel Van Ginderachter", email = "michiel.vanginderachter@meteo.be"}]
 dynamic = ["version", "description"]
