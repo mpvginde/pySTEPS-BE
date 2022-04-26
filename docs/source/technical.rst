@@ -21,7 +21,7 @@ The `PROJ <https://proj.org>`_ string for the coordinate reference system is::
 
 .. _domainexample:
 
-.. figure:: figures/qpe_domain.png
+.. figure:: figures/qpe_domain.eps
    :alt: The RMI-PYSTEPS output domain
    :align: center
    :width: 400px
