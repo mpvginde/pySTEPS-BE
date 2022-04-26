@@ -1,5 +1,5 @@
 [build-system]
-requires = ["flit_core >=3.2,<4","sphinx>=4.3.0","sphinx_rtd_theme==0.5.2"]
+requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
