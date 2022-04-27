@@ -34,7 +34,7 @@ This product is created at the RMI using the open-source library `wradlib <https
 
 and apply several post-processing algorithms (beam-blockage correction, non-meteorological echo mitigation, mean-field bias gauge merging, ...).
 
-The result is a 1km-resolution 700x700 radar instantaneous rainfall rate analysis, produced every 5 minutes.
+The result is a 1km-resolution 700x700 instantaneous precipitation rate analysis, produced every 5 minutes.
 
 .. _radar example:
 
