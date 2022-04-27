@@ -28,12 +28,13 @@ Only the nowcast for 2021-06-30 10:05 UTC is missing due to unavailable radar da
 ------------------
 Meteorological/Hydrological conditions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Heavy large scale slow-moving rainfall causing extreme precipitation amounts ('water bomb') over East Belgium (also parts of The Netherlands [Limburg] and Germany[Rheinland-Pfalz, Nordreihn-Westfalen ]), resulting in floods in Luik, Namen, Henegouwen, Limburg, Waals- and Vlaams-Brabant. These floods lead to 240 casulties and caused over 38 billion Euro worth of damage. 
+Heavy large scale slow-moving rainfall causing extreme precipitation amounts ('water bomb') over East Belgium (also parts of The Netherlands [Limburg] and Germany [Rheinland-Pfalz, Nordreihn-Westfalen ]).
+This resulted in floods in Luik, Namen, Henegouwen, Limburg, Waals- and Vlaams-Brabant. These floods lead to 240 casulties and caused over 38 billion Euro worth of damage. 
 
 .. _case2: 
 
 .. figure:: figures/radar_analysis_202107130000.gif
-    :alt: Radar images between 2021-07-13 and 2021-07-16
+   :alt: Radar images between 2021-07-13 and 2021-07-16
    :align: center
    :width: 400px
    
