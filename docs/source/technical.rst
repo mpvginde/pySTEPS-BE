@@ -1,7 +1,7 @@
 Technical Information
 ======================
 
-The RMI-PYSTEPS products are stored per nowcast run in a netCDF file following the `CF 1.7 conventions <https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/cf-conventions.html>`_. 
+The pySTEPS-BE products are stored per nowcast run in a netCDF file following the `CF 1.7 conventions <https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/cf-conventions.html>`_. 
 Each netCDF file contains 3 variables:
 
 * lon[x,y]: a 700 x 700 matrix containing the longitude of each gridpoint [degrees East].
@@ -24,9 +24,9 @@ The extent of the output domain is shown here:
 .. _domainexample:
 
 .. figure:: figures/qpe_domain.png
-   :alt: The RMI-PYSTEPS output domain
+   :alt: The pySTEPS-BE output domain
    :align: center
    :width: 400px
    
-   The RMI-PYSTEPS output domain.
+   The pySTEPS-BE output domain.
 
