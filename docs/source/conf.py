@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'RMI-PYSTEPS'
+project = 'pySTEPS-BE'
 copyright = '2022, Royal Meteorological Institute Belgium'
 author = 'Michiel Van Ginderachter'
 
