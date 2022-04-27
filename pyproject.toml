@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "rmi-pysteps"
+name = "pySTEPS-BE"
 authors = [{name = "Michiel Van Ginderachter", email = "michiel.vanginderachter@meteo.be"}]
 dynamic = ["version", "description"]
 dependencies = [
