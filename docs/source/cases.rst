@@ -16,7 +16,7 @@ Heavy convective rainfall over the Western part of the Belgian coast during the 
    :align: center
    :width: 400px
    
-   Radar images between 2017-08-19 and 2021-07-12.
+   Radar images between 2017-08-09 and 2021-07-12.
 
 Data
 ^^^^^
