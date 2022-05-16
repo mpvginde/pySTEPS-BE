@@ -24,14 +24,7 @@ Also, there exists an option to perturb the motion field as determined by the op
 Radar Analysis
 ---------------
 The radar analyses used by pySTEPS-BE are composite, post-processed, 5 minute rainfall rate quantative precipitation estimation (QPE) products.
-This product is created at the RMI using the open-source library `wradlib <https://wradlib.org>`_  to combine (if available) images from 5 radars:
-
-* Helchteren (Belgium)
-* Jabbeke (Belgium)
-* Wideumont (Belgium)
-* Avenois (France)
-* Neuheilenback (Germany)
-
+This product is created at the RMI using the open-source library `wradlib <https://wradlib.org>`_  to combine (if available) images from 5 radars
 and apply several post-processing algorithms (beam-blockage correction, non-meteorological echo mitigation, mean-field bias gauge merging, ...).
 
 The result is a 1km-resolution 700x700 instantaneous precipitation rate analysis, produced every 5 minutes.
