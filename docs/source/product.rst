@@ -24,7 +24,7 @@ Also, there exists an option to perturb the motion field as determined by the op
 Real-time rainfall observations
 -------------------------------
 
-The real-time rainfall observations product used as input by pySTEPS-BE is `RADQPE <https://radli.meteo.be/projects/radqpe>`. RADQPE provides high-resolution radar-based quantitative precipitation estimates at the ground in real-time for Belgium and its surroundings.
+The real-time rainfall observations product used as input by pySTEPS-BE is `RADQPE <https://radli.meteo.be/projects/radqpe>`_. RADQPE provides high-resolution radar-based quantitative precipitation estimates at the ground in real-time for Belgium and its surroundings.
 
 The complex processing chain includes beam-blockage correction, non-meteorological echo mitigation and combination with rain gauge data, to obtain the best possible quantitative precipitation estimate.
 
