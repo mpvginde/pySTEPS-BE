@@ -37,7 +37,7 @@ The result is a 1km-resolution 700x700 instantaneous precipitation rate analysis
    :align: center
    :width: 400px
    
-   RMI radar QPE-product of instantanteous precipitation rate valid at 2021-01-27 04:30 UTC
+   RMI RADQPE-product of instantaneous precipitation rate valid at 2021-01-27 04:30 UTC
 
 .. note::
    More detail information can be found in:
