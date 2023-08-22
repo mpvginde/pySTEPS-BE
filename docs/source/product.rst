@@ -21,11 +21,12 @@ Also, there exists an option to perturb the motion field as determined by the op
 
 .. _radar:
 
-Radar Analysis
----------------
-The radar analyses used by pySTEPS-BE are composite, post-processed, 5 minute rainfall rate quantative precipitation estimation (QPE) products.
-This product is created at the RMI using the open-source library `wradlib <https://wradlib.org>`_  to combine (if available) images from 5 radars
-and apply several post-processing algorithms (beam-blockage correction, non-meteorological echo mitigation, mean-field bias gauge merging, ...).
+Real-time rainfall observations
+-------------------------------
+
+The real-time rainfall observations product used as input by pySTEPS-BE is `RADQPE <https://radli.meteo.be/projects/radqpe>`. RADQPE provides high-resolution radar-based quantitative precipitation estimation in real-time for Belgium and its surroundings.
+
+The RADQPE product is created at the RMI using the rmiradlib library, which processes the full, irregular 3D hydrometeor radar reflectivity measurements from the available (usually five) weather radars in or near Belgium. It performs a full processing, including algorithms such as beam-blockage correction, non-meteorological echo mitigation and mean-field bias gauge merging, to obtain the best possible quantitative precipitation estimate.
 
 The result is a 1km-resolution 700x700 instantaneous precipitation rate analysis, produced every 5 minutes.
 
