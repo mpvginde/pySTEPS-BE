@@ -26,7 +26,7 @@ Real-time rainfall observations
 
 The real-time rainfall observations product used as input by pySTEPS-BE is `RADQPE <https://radli.meteo.be/projects/radqpe>`_. RADQPE provides high-resolution radar-based quantitative precipitation estimates at the ground in real-time for Belgium and its surroundings.
 
-The rainfall estimation at the ground is obtained after a complex processing of the radar measurements in the atmosphere. This processing includes beam-blockage correction, non-meteorological echo mitigation and combination with rain gauge data, to obtain the best possible quantitative precipitation estimate.
+The rainfall estimation at the ground is obtained after a complex processing of the radar measurements in the atmosphere. This processing includes the quality control of the radar reflectivity measurements, the estimation of rainfall at the ground from the radar reflectivity aloft using empirical models and the merging with rain gauge measurements.
 
 The result is a 1km-resolution 700x700 instantaneous precipitation rate analysis, produced every 5 minutes.
 
